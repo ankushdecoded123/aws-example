@@ -12,6 +12,6 @@ public class RestController {
 	@GetMapping("/call")
 	public ResponseEntity<String> helloAWS()
 	{
-		return new ResponseEntity<>("Hello AWS, calling my EC-2 instance", HttpStatus.OK);
+		return new ResponseEntity<>("Hello AWS codebuild stack", HttpStatus.OK);
 	}
 }
